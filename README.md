@@ -1,6 +1,8 @@
 # fastjson-c3p0
 fastjson不出网回显利用
 
+本地环境：
+
 - jdk 1.8.0_181
 - fastjson 1.2.47 
 - c3p0 0.9.5.2
